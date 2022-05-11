@@ -1,0 +1,43 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css');
+.bg-dark {
+    background-color: black
+
+}
+.carcard-avaliacao {
+    text-align: center;
+    justify-content: center;
+}
+
+.cinemacard {
+    margin: 100px 20px;
+}
+
+.cinemacard img {
+    width: 300px; 
+    height: 400px;
+}
+
+.cinemacard iframe {
+    width: 330px;
+    height: 200px;
+}
+
+.card-text {
+    height: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+.card-body{
+    width: 300px; 
+    height: 400px;
+}
+
+.card-img-top {
+    width: 200px; 
+    
+}
+
+.lancamento {
+    margin-top: 100px;
+}
