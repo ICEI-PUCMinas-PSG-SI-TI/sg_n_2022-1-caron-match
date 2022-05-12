@@ -1,7 +1,20 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css');
-.bg-dark {
-    background-color: black
+.bg-darkest {
+    background-color: black;
 
+}
+.bg-yellow {
+    background-color: yellow;
+}
+.bg-beige{
+    background-color: #ffbe5a;
+}
+.bg-orange{
+    background-color: orangered;
+}
+.logo-caron{
+    resize: contain;
+    height: 30px;
 }
 .carcard-avaliacao {
     text-align: center;
