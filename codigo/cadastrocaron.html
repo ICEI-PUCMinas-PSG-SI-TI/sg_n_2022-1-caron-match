@@ -7,22 +7,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
     <link rel="stylesheet" href="stylelogin.css">
-<script>
+    <link href="cadastro.js">
     
-</script>
-
-
 </head>
+<!--
+<script>
+    window.onload = () => {
+         email.onchange = () => console.log(email.value);
+         nome.onchange = () => console.log(nome.value);
+         sobrenome.onchange = () => console.log(sobrenome.value);
+         password.onchange = () => console.log(password.value);
+         passconfirmation.onchange = () => console.log(passconfirmation.value);
+         telefone.onchange = () => console.log(telefone.value);
+         dar.onchange = () => console.log(dar.value);
+         pegar.onchange = () => console.log(pegar.value);
+         lembre.onchange = () => console.log(lembre.value);
+     };
+</script>
+-->
+
 <body>
-    <form id="cadastro" class="form">
+    <form action="cadastro.php" method="post" id="cadastro" class="form">
+        <!--Olhar essa parte, o que colocar no action-->
         <div class="card">
             <div class="card-top">
                 <img src="cadastro/logo-circle.png" class="logo" alt="">
                 <h1 class="title">Caron Match</h1>
                 <h4>Cadastre-se aqui para acessar a página</h4>
+
             </div>
             <div class="card-group">
-                <input type="e-mail" id="email" name="email" placeholder=" Digite seu e-mail" data-min-length="3"> 
+                <input type="e-mail" id="email" name="email" placeholder=" Digite seu e-mail" data-min-length="3">
+                <!--Envio dos dados usa o atributo name-->
             </div>
             <div class="card-group">
                 <input type="text" id="nome" name="nome" placeholder=" Digite seu nome">
@@ -34,24 +50,25 @@
                 <input type="password" id="password" name="password" placeholder=" Digite sua senha">
             </div>
             <div class="card-group">
-                <input type="text" id="passconfirmation" name="passconfirmation"  placeholder=" Confirme sua senha">
+                <input type="text" id="passconfirmation" name="passconfirmation" placeholder=" Confirme sua senha">
             </div>
             <div class="card-group">
                 <input type="text" id="telefone" name="telefone" placeholder=" Digite o seu telefone com DDD">
             </div>
             <p> Você quer: </p>
-            <input type="radio" id="dar" name="escolha" value="dar" required>
+            <input type="radio" id="dar" name="escolha" value="dar" required checked>
             <label for="escolha"> Dar carona</label>
             <input type="radio" id="pegar" name="escolha" value="pegar" required>
             <label for="escolha"> Pegar carona<label>
-                <p></p>
-            <div class="card-group">
-                <label for=""><input type="checkbox" class="lembre"> Lembre-me</label>
-            </div>
-            <div class="card-group">
-                    <button class="btn" type="submit">Cadastre-se</button>
+                    <p></p>
+                    <div class="card-group">
+                        <label for=""><input type="checkbox" id=lembre class="lembre"> Lembre-me</label>
+                    </div>
+                    <div class="card-group">
+                        <button class="btn" type="submit">Cadastre-se</button>
                     </div>
         </div>
+
     </form>
     <p class="error-validation template"></p>
     <script src="cadastro.js"></script>

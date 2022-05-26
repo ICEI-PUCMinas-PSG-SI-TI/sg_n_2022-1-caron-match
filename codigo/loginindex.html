@@ -8,7 +8,14 @@
     <title>Login</title>
     <link rel="stylesheet" href="stylelogin.css">
 </head>
+<script>
+     window.onload = () => {
+            email.onchange = () => console.log(email.value);
+            senha.onchange = () => console.log(senha.value);
+            lembre.onchange = () => console.log(lembre.value);
+        };
 
+</script>
 <body>
     
     <form action="" class="form">
@@ -19,19 +26,18 @@
                 <h4>Login</h4>
             </div>
             <div class="card-group">
-                <input type="e-mail" placeholder=" Digite seu e-mail">
+                <input type="e-mail" id=email name=email placeholder=" Digite seu e-mail">
 
             </div>
             <div class="card-group">
-
-                <input type="password" placeholder=" Senha">
+                <input type="password" id=senha name="senha" placeholder=" Senha">
 
             </div>
             <div class="card-group">
                 <button class="btn" type="submit">Login</button>
             </div>
             <div class="card-group">
-                <label for=""><input type="checkbox" class="lembre"> Lembre-me</label>
+                <label for=""><input type="checkbox" class="lembre" id="lembre"> Lembre-me</label>
             </div>
             <div class="card-group">
                 <p>Ou <a href="https://google.com">Cadastre-se</a></p>
