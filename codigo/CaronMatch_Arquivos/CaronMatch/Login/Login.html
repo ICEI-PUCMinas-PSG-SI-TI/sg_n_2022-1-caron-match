@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="Login.css">
+    <link rel="stylesheet" href="styleLogin.css">
+    <script src="Login.js"> </script>
 </head>
 
 <body>
@@ -19,22 +20,21 @@
                 <h4>Login</h4>
             </div>
             <div class="card-group">
-                <input type="e-mail" placeholder=" Digite seu e-mail">
+                <input type="e-mail" id=email name=email placeholder=" Digite seu e-mail">
 
             </div>
             <div class="card-group">
-
-                <input type="password" placeholder=" Senha">
+                <input type="password" id=senha name="senha" placeholder=" Senha">
 
             </div>
             <div class="card-group">
                 <button class="btn" type="submit">Login</button>
             </div>
             <div class="card-group">
-                <label for=""><input type="checkbox" class="lembre"> Lembre-me</label>
+                <label for=""><input type="checkbox" name="lembre" value="lembre" class="lembre" id="lembre"> Lembre-me</label>
             </div>
             <div class="card-group">
-                <p>Ou <a href="/Cadastro/CadastroCaron.html">Cadastre-se</a></p>
+                <p>Ou <a href="/sg_n_2022-1-caron-match-master/codigo/CaronMatch_Arquivos/CaronMatch/Cadastro/CadastroCaron.html">Cadastre-se</a></p>
             </div>
         </div>
 
