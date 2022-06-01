@@ -7,7 +7,6 @@ O nosso projeto é destinado a alunos que utilizam transportes públicos ou alte
 * Alexandre França Quirino dos Santos
 * Alexandre Lott De Alcântara Bizarria
 * Isadora Horta Rates
-* Gabriel Felipe Gonçalves
 * Lucas Eduardo Costa de Aguiar
 * Samuel Rodrigues Cardilo Van Petten
 
