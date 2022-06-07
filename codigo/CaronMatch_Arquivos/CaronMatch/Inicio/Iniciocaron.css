@@ -21,44 +21,36 @@ body{
     resize: contain;
     height: 30px;
 }
-.carcard-avaliacao {
+
+.profile-header-container {
+    margin: 0 auto;
     text-align: center;
-    justify-content: center;
+    margin-top: 0;
 }
 
-.cinemacard {
-    margin: 100px 20px;
+
+.img-circle {
+
+    text-align: center;
+    margin: 0 auto;
+}
+@media screen and (max-width: 576px){
+    
+       
+    .img-circle {
+        width: 20%;
+    }
+
 }
 
-.cinemacard img {
-    width: 300px; 
-    height: 400px;
+@media screen and (max-width: 1000px){
+    
+    .img-circle {
+    width: 30%;
 }
-
-.cinemacard iframe {
-    width: 330px;
-    height: 200px;
-}
-
-.card-text {
-    height: 250px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-
-.card-body{
-    width: 300px; 
-    height: 400px;
-}
-
-.card-img-top {
-    width: 200px; 
     
 }
 
-.lancamento {
-    margin-top: 100px;
-}
 .footer {
     position: fixed;
     bottom: 0; 
@@ -66,3 +58,4 @@ body{
     width: 100%;
     
 }
+
