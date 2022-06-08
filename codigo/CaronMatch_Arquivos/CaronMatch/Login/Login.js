@@ -7,7 +7,7 @@ login.onsubmit = (event) => {
         var senhaexistente = localStorage.getItem(emaildigitado + "-password")
         if (senhaexistente == senhadigitada) {
             event.preventDefault();
-            window.location.href = "/codigo/CaronMatch_Arquivos/CaronMatch/Profile/profile.html";
+            window.location.href = "/codigo/CaronMatch_Arquivos/CaronMatch/TelaFinal/Paginafinal.html";
         }
         else {
             window.alert("Senha incorreta. Tente novamente.")
