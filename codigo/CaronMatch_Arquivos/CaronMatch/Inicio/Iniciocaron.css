@@ -21,36 +21,45 @@ body{
     resize: contain;
     height: 30px;
 }
-
-.profile-header-container {
-    margin: 0 auto;
+.carcard-avaliacao {
     text-align: center;
-    margin-top: 0;
+    justify-content: center;
 }
 
-
-.img-circle {
-
-    text-align: center;
-    margin: 0 auto;
+.cinemacard {
+    margin: 100px 20px;
 }
-@media screen and (max-width: 576px){
+
+.cinemacard img {
+    width: 300px; 
+    height: 400px;
+}
+
+.cinemacard iframe {
+    width: 330px;
+    height: 200px;
+}
+
+.card-text {
+    height: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+.card-body{
+    width: 300px; 
+    height: 400px;
+}
+
+.card-img-top {
+    width: 200px; 
     
-       
-    .img-circle {
-        width: 20%;
-    }
-
 }
 
-@media screen and (max-width: 1000px){
-    
-    .img-circle {
-    width: 30%;
-}
-    
-}
 
+.lancamento {
+    margin-top: 100px;
+}
 .footer {
     position: fixed;
     bottom: 0; 
@@ -58,4 +67,3 @@ body{
     width: 100%;
     
 }
-
