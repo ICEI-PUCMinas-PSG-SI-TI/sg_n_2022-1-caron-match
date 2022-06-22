@@ -7,7 +7,7 @@ login.onsubmit = (event) => {
         var senhaexistente = localStorage.getItem(emaildigitado + "-password")
         if (senhaexistente == senhadigitada) {
             event.preventDefault();
-            window.location.href = "/sg_n_2022-1-caron-match/codigo/CaronMatch_Arquivos/CaronMatch/TelaFinal/Paginafinal.html";
+            window.location.href = "/sg_n_2022-1-caron-match/codigo/TelaFinal/Paginafinal.html";
         }
         else {
             window.alert("Senha incorreta. Tente novamente.")
