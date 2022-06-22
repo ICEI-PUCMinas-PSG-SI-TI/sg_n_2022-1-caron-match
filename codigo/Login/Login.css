@@ -1,0 +1,67 @@
+body{
+    background-color: #ffbe5a;
+    font-family: sans-serif;
+}
+.form{
+  width: 325px;
+  margin:auto;
+  padding-top: 3%;   
+
+}
+.card{
+    box-shadow: 1px 1px 5px #ccc;
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+
+}
+.card-top{
+    text-align: center;
+}
+.card-group{
+    margin-bottom: 5%;
+}
+.logo {
+    width: 30%;
+    height: 30%;
+    object-fit: scale-down;
+    margin:auto;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px #ccc;
+  }
+  .title{
+      color: #eda350;
+      font-size: medium;
+
+      
+  }
+  .lembre{
+      text-align: left; 
+  }
+  .card-group{
+      text-align: center;
+      font-size: small;
+      color: rgb(54, 47, 47);
+  }
+  .card-group > input{
+      display: block;
+      border-radius: 30px;
+      outline: 0;
+      width: 95%;
+      height: 20%;
+     padding: 1%;
+     border: auto;
+  }
+  .btn{
+      background-image: linear-gradient(to right,#eda01d, rgb(204, 144, 15));
+      width: 100%;
+      border-radius: 30px;
+      border: 0px;
+      margin-top: 15px;
+
+  }
+.btn:hover {
+  color: lightgray;
+   
+}
