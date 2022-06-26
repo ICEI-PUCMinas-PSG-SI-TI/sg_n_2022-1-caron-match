@@ -60,21 +60,30 @@ input{
   
 }
 
+.opitions{
+    
+        display: inline-flex;
+        margin:15px;  
+}
 .header{    
     
     display: flex;
     align-items: center;
-    justify-content:space-around;
+    justify-content:space-between;
     background-color: black;
     width: 100%;
     height: 10%;
     
 }
+.header-esquerda{
+    display: flex;
+}
 .header h1{
+
 color:white;
 margin:15px;
 margin-bottom: 20px;
-margin-right:1000px;
+margin-left: 0;
 
 }
 
