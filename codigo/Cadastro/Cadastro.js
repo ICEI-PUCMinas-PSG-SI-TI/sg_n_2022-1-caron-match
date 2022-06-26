@@ -31,7 +31,7 @@ window.onload = () => {
                
             }
             event.preventDefault();
-            window.location.href = "/sg_n_2022-1-caron-match/codigo/Login/Login.html";
+            window.location.href = "../Login/Login.html";
         }
        
 
