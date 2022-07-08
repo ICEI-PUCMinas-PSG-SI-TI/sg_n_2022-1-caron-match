@@ -31,6 +31,11 @@ h3{
 h4{
     font-size:17px;
 }
+.bemVindo p{
+    
+    font-size: 25px;
+    color: #ffffff;
+}
 
 p{
     font-size:15px;
@@ -54,6 +59,7 @@ input{
 }
 
 .Imagem{
+    height: 70px;
     width: 70px; 
     margin:15px;
     margin-bottom: 20px;
@@ -61,7 +67,7 @@ input{
 }
 
 .opitions{
-    
+        align-items: center;
         display: inline-flex;
         margin:15px;  
 }
