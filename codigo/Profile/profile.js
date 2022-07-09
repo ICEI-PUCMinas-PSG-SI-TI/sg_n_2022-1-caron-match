@@ -7,4 +7,10 @@ window.onload = function () {
     document.getElementById('telefone').innerHTML = telefonedousuario;
 
 }
+function funcaoLogout(){
+  
+ var nome = localStorage.getItem('usuariologado-nome');
+ window.localStorage.removeItem('usuariologado-nome');
 
+    
+}
