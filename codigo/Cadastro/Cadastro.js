@@ -5,8 +5,10 @@ window.onload = () => {
     sobrenome.onchange = () => console.log(sobrenome.value);
     password.onchange = () => console.log(password.value);
     telefone.onchange = () => console.log(telefone.value);
+    cep.onchange = () => console.log(cep.value);
     dar.onchange = () => console.log(dar.value);
     pegar.onchange = () => console.log(pegar.value);
+    
 
 
 
@@ -23,6 +25,7 @@ window.onload = () => {
             localStorage.setItem(emaildigitado + '-sobrenome', sobrenome.value);
             localStorage.setItem(emaildigitado + '-password', password.value);
             localStorage.setItem(emaildigitado + '-telefone', telefone.value);
+            localStorage.setItem(emaildigitado + '-cep', cep.value);
             if (dar.checked) {
                 localStorage.setItem(emaildigitado + '-escolha', dar.value);
             }
