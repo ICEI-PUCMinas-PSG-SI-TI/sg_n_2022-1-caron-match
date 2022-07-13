@@ -14,7 +14,7 @@ Os integrantes trabalharam em conjunto e dividindo tarefas ao longo do desenvolv
 Utilizamos o Trello para organizar nossas tarefas. Segue o link para esta ferramenta que foi bastante utilizada e que contêm todas as atividades feitas pelo grupo durante o semestre.
 https://trello.com/b/KdUglCud/caronmatch
 
-A seguir se encontra o link para o vídeo de apresentação do nosso projeto
+A seguir se encontra o link para o vídeo de apresentação do nosso projeto https://github.com/ICEI-PUCMinas-PSG-SI-TI/sg_n_2022-1-caron-match/blob/master/docs/video/Untitled.mp4
 
 Por fim, para que o projeto seja melhor entendido aconselhamos que se comecem os testes pela página de Início. É nela que abrimos nosso site e é dela que se consegue acessar todo o trabalho feito pelo grupo.
 
