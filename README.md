@@ -16,7 +16,7 @@ https://trello.com/b/KdUglCud/caronmatch
 
 A seguir se encontra o link para o vídeo de apresentação do nosso projeto https://github.com/ICEI-PUCMinas-PSG-SI-TI/sg_n_2022-1-caron-match/blob/master/docs/video/Untitled.mp4
 
-Por fim, para que o projeto seja melhor entendido aconselhamos que se comecem os testes pela página de Início. É nela que abrimos nosso site e é dela que se consegue acessar todo o trabalho feito pelo grupo.
+Por fim, para que o projeto seja melhor entendido aconselhamos que se comecem os testes pela página de Início(index.html). É nela que abrimos nosso site e é dela que se consegue acessar todo o trabalho feito pelo grupo.
 
 
 ## Professores responsáveis
