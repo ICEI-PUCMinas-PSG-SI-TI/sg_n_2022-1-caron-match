@@ -105,10 +105,11 @@ header .menu a, .titulo{
     transition: 200ms;
 }
 
-header .menu .ativo, header .menu a:hover{
+header .menu .ativo , header .menu a:hover{
     color:black;
     background-color:yellow;
 }
+
 
 .main {
     display: grid;
@@ -228,3 +229,15 @@ color: white;
  h4 {
     color: black;
 }
+
+#remover{
+    
+    color :#bdbbb8;
+    background: none;
+    font-size: 17px;
+    border:none; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+  }
+  
+ 
