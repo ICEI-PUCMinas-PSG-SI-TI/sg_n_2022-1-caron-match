@@ -10,7 +10,7 @@ window.onload = function () {
 function funcaoLogout(){
   
  var nome = localStorage.getItem('usuariologado-nome');
- window.localStorage.removeItem('usuariologado-nome');
+ window.localStorage.removeItem('usuariologado-nome')=nome;
 
     
 }
